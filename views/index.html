@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Michael Yang</title>
+        
+        <!-- Bootstrap Core CSS -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Theme CSS -->
+        <link href="css/main.css" rel="stylesheet">
+        <!-- Custom Fonts -->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    </head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="80">
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand" href="#page-top">Michael Yang</a>
+                </div>
+    
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="hidden">
+                            <a href="#page-top"></a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#about">About</a>
+                        </li>
+    					<li class="page-scroll">
+                            <a href="#portfolio">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="mailto:ledongyang@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+        
+        <!-- Header -->
+        <header id="page-top">
+            <ul class="slideshow">
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-4">
+                        <img class="img-responsive img-circle" src="img/profile.jpg" alt="">
+                    </div>
+                    <div class="intro-text col-xs-8">
+                        <span class="name">Michael Yang</span>
+                        <hr> 
+                        <span class="skills">Full Stack Web Developer</span>
+                    </div>
+                    
+                </div>
+            </div>
+        </header>
+        
+        <!-- About Section -->
+        <section class="success" id="about">
+            <div class="container" id="about-container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>About</h2>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-lg-offset-2">
+                        <p>
+                        I've been programming during my four college years, and successfully graduated from SUNY University at Buffalo with B.S. degree in Computer Engineering in 2016.
+                        I'm always a fan of web technologies, and decided to self-train / self-learn to become a web developer with my programming knowledge and skills learned from school. 
+                        Nowadays, web developers use variety of frameworks, databases, and technologies to build web apps. I'm specialized in MEAN stack, which stands for MongoDB, Express, Angular, and Node.js. 
+                        </p>
+                    </div>
+                    <div class="col-lg-4">
+                        <p>
+                        But I'd love to learn other technologies like Ruby on Rails, Django, Flask, MySQL, PostgreSQL, and etc. 
+                        I believe it doesn't matter what technologies a developer are using right now, it is more important to learn how to use newer or more advanced technologies.
+                        That is why working with technology is so exciting but challenging at the same time. I learned MEAN from ground up, and had successfully deployed a number of 
+                        express apps on Heroku. Please see the section below for more information about my most recent projects.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Portfolio Grid Section -->
+        <section id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>My Projects</h2>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row flex">
+    				<div class="col-md-6 portfolio-item">
+                        <a href="https://textbookmarketplace-ldy.herokuapp.com/" target="_blank" class="portfolio-link">
+                            <div class="caption">
+                                <div class="caption-content">					
+                                    <i class="fa fa-search-plus fa-2x"></i>
+    								<p><big>Textbook Marketplace</big></p>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/textbook-marketplace.png" class="img-responsive">
+                        </a>
+                        <div>
+                            <h3>Feature highlight of Textbook Marketplace</h3>
+                            <ul>
+                                <li>Front end: Bootstrap</li>
+                                <li>Back end: MongoDB, Express, Node.js</li>
+                                <li>RESTful routing</li>
+                                <li>User authentication and authorization </li>
+                                <li>Image upload with Amazon S3, threaded user comments, google map API, AJAX live search, and etc.</li>
+                            </ul>
+                            <h3>Future Improvements</h3>
+                            <ul>
+                                <li>UI improvements: Better image layout using <a href="https://masonry.desandro.com/">Masonry</a>, 
+                                    <a href="https://isotope.metafizzy.co/">Isotope</a>, or <a href="http://salvattore.com/">Salvattore</a>; 
+                                    collapse threaded comments; upload multiple images at once; display multiple images on show page; and etc.
+                                </li>
+                                <li>User profiles, password reset, form validation, user ranking, and etc.</li>
+                                <li>Share feature with facebook, twitter, pinterest, and etc.</li>
+                            </ul>
+                        </div> 
+                    </div>
+                    <div class="col-md-6 portfolio-item">
+                        <a href="https://pawlog-ldy.herokuapp.com/blogs" target="_blank" class="portfolio-link">
+                            <div class="caption">
+                                <div class="caption-content">					
+                                    <i class="fa fa-search-plus fa-2x"></i>
+    								<p><big>PawLog</big></p>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/pawlog.png" class="img-responsive">
+                        </a>
+                        <div>
+                            <h3>
+                                Feature highlight of PawLog
+                            </h3>
+                            <ul>
+                                <li>Front end: Semantic UI</li>
+                                <li>Back end: MongoDB, Express, Node.js</li>
+                                <li>RESTful routing</li>
+                                <li>AJAX live search</li>
+                            </ul>
+                            <h3>Future Improvements</h3>
+                            <ul>
+                                <li>User authentication and authorization</li>
+                                <li>User comments</li>
+                                <li>Post rating</li>
+                                <li>Image upload with Amazon S3</li>
+                                <li>Share feature with facebook, twitter, pinterest, and etc.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 portfolio-item">
+                        <a href="https://imagegallery-ldy.herokuapp.com/" target="_blank" class="portfolio-link">
+                            <div class="caption">
+                                <div class="caption-content">					
+                                    <i class="fa fa-search-plus fa-2x"></i>
+    								<p><big>Image Gallery</big></p>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/image-gallery.png" class="img-responsive">
+                        </a>
+                        <div>
+                            <h3>
+                                Feature highlight of Image Gallery
+                            </h3>
+                            <ul>
+                                <li>Front end: Bootstrap</li>
+                                <li>Back end: MongoDB, Express, Node.js</li>
+                                <li>RESTful routing</li>
+                                <li>Image upload with Amazon S3</li>
+                                <li>Image enlargement</li>
+                            </ul>
+                            <h3>Future Improvements</h3>
+                            <ul>
+                                <li>User authentication and authorization</li>
+                                <li>Image likes, image collections, image search, and etc.</li>
+                                <li>Share feature with facebook, twitter, pinterest, and etc.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 portfolio-item">
+                        <a href="https://rgb-challenge-ldy.herokuapp.com/" target="_blank" class="portfolio-link">
+                            <div class="caption">
+                                <div class="caption-content">					
+                                    <i class="fa fa-search-plus fa-2x"></i>
+    								<p><big>RGB Challenge</big></p>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/rgbChallenge.png" class="img-responsive">
+                        </a>
+                        <div>
+                            <h3>
+                                Feature highlight of RGB Challenge
+                            </h3>
+                            <ul>
+                                <li>Static web app using pure HTML5, CSS3, and Javascript</li>
+                                <li>Easy, hard, expert difficulty selection</li>
+                                <li>Score counting</li>
+                            </ul>
+                            <h3>Future Improvements</h3>
+                            <ul>
+                                <li>Adding more color games - a color game where player guessing which color is different from the rest</li>
+                                <li>Share score feature with facebook, twitter, pinterest, and etc.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Michael Yang 2017
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    
+        <!-- Bootstrap Core JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+        <!--Script for smooth scrolling-->
+        <script>
+            $(document).ready(function(){
+              // Add smooth scrolling on all links inside the navbar
+              $(".page-scroll a").on('click', function(event) {
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                  // Prevent default anchor click behavior
+                  event.preventDefault();
+            
+                  // Store hash
+                  var hash = this.hash;
+            
+                  // Using jQuery's animate() method to add smooth page scroll
+                  // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                  $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                  }, 800, function(){
+               
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                  });
+                }  // End if
+              });
+            });
+        </script>
+    </body>
+</html>
